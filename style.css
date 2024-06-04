@@ -1,0 +1,83 @@
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+svg {
+    width: 32px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+main {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#buscador {
+    display: flex;
+    justify-content: center;
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    min-height: 44px;
+    max-width: 584px;
+    width: 538px;
+}
+
+#buscador input {
+    width: 400px;
+    outline: none;
+    border: none;
+}
+
+#buscador .icono-buscador {
+    margin: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    /* funciona con el texto, pero también funciona con los elementos inline*/
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    height: 40px;
+}
+
+/* modelo de caja: box model
+    margin
+    padding
+    border
+    */
+
+#logo {
+    width: 272px;
+}
+
+footer ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 15px;
+}
+
+footer > div > ul {
+    justify-content: center;
+}
+
+a[target]{
+    color: #202124;
+    text-decoration: none;
+}
